@@ -77,6 +77,7 @@ export default {
             const valid = this.$refs.formLogin.validate()
             if (valid) {
                 //codigo para cambiar de pagina
+                    this.$router.push('/dashboard')
             } else {
                 //mostrar alerta
                 alert('Datos incorrectos')
