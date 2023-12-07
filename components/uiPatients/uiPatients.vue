@@ -34,7 +34,7 @@
                             </v-btn>
                         </template>
                         <span>
-                            Add new appointment
+                            Add new patient
                         </span>
                     </v-tooltip>
                 </v-row>
