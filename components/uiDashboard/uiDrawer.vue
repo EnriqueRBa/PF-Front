@@ -15,7 +15,7 @@
                 </v-list-item-avatar>
             </v-list-item>
             <v-list-item-title class="text-body-1 text-center">
-                My App
+                Dra. Juanita Perez
             </v-list-item-title>
         </v-list>
         <v-divider />
