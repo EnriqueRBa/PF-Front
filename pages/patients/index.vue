@@ -4,20 +4,18 @@
         </v-app-bar>
         <v-row class="ma-1">
             <v-col>
-                DASHBOARD
+                <ui-patients />
             </v-col>
         </v-row>
     </div>
 </template>
-
+ 
 <script>
-//import uiPatientsVue from '~/components/uiPatients/uiPatients.vue'
-//import uiUsuariosVue from '~/components/uiUsers/uiUsuarios.vue'
+import uiPatientsVue from '~/components/uiPatients/uiPatients.vue'
 export default {
     layout: 'dashboard',
     components: {
-        //uiPatientsVue,
-        //uiUsuariosVue
+        uiPatientsVue
     }
 }
 </script>

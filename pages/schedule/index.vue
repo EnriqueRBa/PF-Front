@@ -4,19 +4,20 @@
         </v-app-bar>
         <v-row class="ma-1">
             <v-col>
-                DASHBOARD
+                SCHEDULE
             </v-col>
         </v-row>
     </div>
 </template>
 
+
 <script>
-//import uiPatientsVue from '~/components/uiPatients/uiPatients.vue'
+//import uiAppointments from '~/components/uiAppointments/uiAppointments.vue'
 //import uiUsuariosVue from '~/components/uiUsers/uiUsuarios.vue'
 export default {
     layout: 'dashboard',
     components: {
-        //uiPatientsVue,
+        //uiAppointments,
         //uiUsuariosVue
     }
 }
